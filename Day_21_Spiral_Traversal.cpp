@@ -1,8 +1,9 @@
 using namespace std;
 
-vector<int> spiralTraverse(vector<vector<int>> array) {
-  // Write your code here.
-	
+vector<int> spiral(vector<vector<int>> array) {
+  /*O(n) Time
+  O(n) Space
+  */
 	vector<int> result={};
 	int sR =0;
 	int eR = array.size()-1;
